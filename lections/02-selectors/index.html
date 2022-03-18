@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(S)CSS #1 - 02 Selector types</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <a class="waves-effect waves-light btn-small" href="../../index.html"
+        >Back to menu</a
+      >
+
+      <h1>02 Selector types</h1>
+
+      <!-- ID selector -->
+      <h5>ID selector</h5>
+      <div id="my-element-1">A</div>
+
+      <!-- class selectos -->
+      <h5>Class selector</h5>
+      <div class="my-elements"><p>B</p></div>
+
+      <div class="my-elements">
+        <div><p>C</p></div>
+      </div>
+
+      <div class="my-elements">
+        <div>Titel:</div>
+        <span><p>D</p></span>
+      </div>
+
+      <!-- mixed selectors -->
+      <h5>Mixed selectors</h5>
+      <div id="my-element-2" class="my-elements">E</div>
+
+      <!-- pseudo elements -->
+      <h5>pseudo element</h5>
+      <p id="lorem-text">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam.
+      </p>
+    </main>
+  </body>
+</html>

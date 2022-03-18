@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(S)CSS #1 - 01 Setup</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+
+    <!-- external style -->
+    <link rel="stylesheet" type="text/css" href="external.css" />
+
+    <!-- internal style -->
+    <style>
+      #element-internal {
+        border: 1px dashed #2e2e2e;
+        border-radius: 4px;
+        padding: 8px;
+        margin-top: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="waves-effect waves-light btn-small" href="../../index.html"
+        >Back to menu</a
+      >
+
+      <h1>01 Setup</h1>
+
+      <!-- inline style -->
+      <div style="border: 1px solid #2e2e2e; background: #ccc; padding: 8px">
+        Inline styled element
+      </div>
+
+      <div id="element-internal">Internal styled element</div>
+
+      <!-- external styled element -->
+      <div id="element-external">External styled element</div>
+    </main>
+  </body>
+</html>
