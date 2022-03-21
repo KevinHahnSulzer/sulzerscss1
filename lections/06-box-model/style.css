@@ -1,0 +1,27 @@
+/* basic centric aligment of items with gap*/
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* border */
+.box {
+  border: 1px solid #000;
+}
+
+/* padding */
+.padding {
+  padding: 64px;
+}
+
+.margin {
+  margin: 32px 0;
+}
+
+/* conbination of all */
+.nested-box {
+  margin: 5px;
+  padding: 5px;
+}

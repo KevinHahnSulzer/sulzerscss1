@@ -1,0 +1,62 @@
+/* basic centric aligment of items with gap*/
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.container > div {
+  border: 1px solid #000;
+  height: 32px;
+  font-size: small;
+}
+
+/* absolute */
+.cm {
+  width: 10cm;
+}
+.mm {
+  width: 10mm;
+}
+.in {
+  width: 2in;
+}
+.px {
+  width: 10px;
+}
+.pt {
+  width: 10pt;
+}
+.pc {
+  width: 10pc;
+}
+
+/* relative */
+.em {
+  width: 10em;
+}
+.ex {
+  width: 10ex;
+}
+.ch {
+  width: 10ch;
+}
+.rem {
+  width: 10rem;
+}
+.vw {
+  width: 10vw;
+}
+.vh {
+  width: 10vh;
+}
+.vmin {
+  width: 10vmin;
+}
+.vmax {
+  width: 10vmax;
+}
+.percent {
+  width: 10%;
+}

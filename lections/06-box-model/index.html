@@ -22,9 +22,29 @@
       <h1>06 Box Model</h1>
 
       <!-- content as a box -->
-      <!-- padding -->
-      <!-- border -->
-      <!-- margin -->
+      <!-- all have a border -->
+      <div class="container">
+        <div class="box">I am a box!</div>
+        <!-- padding -->
+        <p class="box padding">I am also a box! (I have a padding)</p>
+        <!-- margin -->
+        <section class="box margin">Me too! (I have a margin)</section>
+        <span class="box">Want to guess?</span>
+      </div>
+
+      <!-- boxes in boxes -->
+      <h3>boxes in boxes</h3>
+
+      <div class="container">
+        Box in a box
+        <div class="box nested-box">
+          BOX A
+          <div class="box nested-box">
+            BOX B
+            <div class="box nested-box">BOX C</div>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
