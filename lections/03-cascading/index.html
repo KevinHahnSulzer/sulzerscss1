@@ -21,8 +21,28 @@
 
       <h1>03 Cascading</h1>
       <!-- importance -->
+      <h3>importance</h3>
+      <div class="container">
+        <div class="item">A</div>
+        <div class="item special">B</div>
+        <div class="item">C</div>
+      </div>
+
       <!-- specificity -->
+      <h3>specificity</h3>
+      <div class="container">
+        <div class="item">A</div>
+        <p id="specificElement" class="item item-2 test">B</div>
+        <div class="item">C</div>
+      </div>
+
       <!-- source order -->
+      <h3>source order</h3>
+      <div class="container">
+        <div class="item bgblue bgred">A</div>
+        <div class="item bgred bgblue">B</div>
+        <div class="item">C</div>
+      </div>
     </main>
   </body>
 </html>

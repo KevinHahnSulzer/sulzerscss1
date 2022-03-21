@@ -1,0 +1,51 @@
+/* basic centric aligment of items with gap*/
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* basic item visualization */
+.item {
+  height: 50px;
+  width: 125px;
+  border: 1px solid #000;
+
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* importance */
+.container .item.special {
+  color: blue;
+}
+/* without the !important the selector above would give the element the color blue */
+.special {
+  color: red !important;
+}
+
+/* specificity */
+.container .item-2 {
+  background: rgba(0, 255, 0, 0.1);
+}
+
+/* this selector wins */
+#specificElement {
+  color: blue;
+}
+/* these selector lose */
+.test {
+  color: green;
+}
+p {
+  color: red;
+}
+
+/* source order */
+/* switch around classes to see behaviour */
+.bgred {
+  background: rgba(255, 0, 0, 0.1);
+}
+.bgblue {
+  background: rgba(0, 0, 255, 0.1);
+}

@@ -1,0 +1,44 @@
+/* basic centric aligment of items with gap*/
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* basic item visualization */
+.item {
+  border: 1px solid #000;
+  display: block;
+  margin: 8px;
+  padding: 8px;
+
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* passing down font & color */
+.fontstyles {
+  font-family: serif;
+  color: purple;
+}
+
+/* no passing down for border */
+/* other borders remain solid */
+.borderstyles {
+  border: 1px dashed #000;
+}
+
+/* inherit - copy of same border */
+.iWantThatBorderToo {
+  border: inherit;
+}
+
+/* initial - resetting font color to page default */
+.butNoColorPlease {
+  color: initial;
+}
+
+/* unset - removed background from the element */
+.noBackground {
+  background: unset;
+}
